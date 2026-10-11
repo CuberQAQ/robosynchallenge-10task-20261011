@@ -39,14 +39,14 @@ RoboSynChallenge checkout. Its official `policy/act` and `policy/smolvla`
 adapters must be present. Install the pinned worker LeRobot source in the
 separate Python 3.12 environment.
 
-Once the HF repository has been published, use its full immutable commit SHA:
+Use the private HF repository at this full immutable checkpoint commit (an authorized read token is required):
 
 ```bash
-python download_checkpoints.py --repo-id CuberQAQ/robosynchallenge-10task-checkpoints-20261011 --revision FULL_HF_COMMIT_SHA \
+python download_checkpoints.py --repo-id CuberQAQ/robosynchallenge-10task-checkpoints-20261011 --revision 3eca6481c2fd642b17a2165ad52ec7aa232a0166 \
   --policy-dir /path/to/RoboSynChallenge/policy/ten_task_best
 ```
 
-`FULL_HF_COMMIT_SHA` will be replaced with the immutable checkpoint release commit after upload verification. The downloader
+The checkpoint commit is fixed; authenticate using an authorized Hugging Face read token before downloading. Do not place a token in code or run notes. The downloader
 checks every checkpoint file's SHA-256 and all ten required model routes.
 
 ## Official evaluation entry point
