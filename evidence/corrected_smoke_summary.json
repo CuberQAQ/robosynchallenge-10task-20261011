@@ -1,0 +1,116 @@
+{
+  "mode": "smoke",
+  "all_completed": true,
+  "tasks": [
+    {
+      "task": "table_rearrangement",
+      "status": "completed",
+      "exit_code": 0,
+      "successes": 1,
+      "episodes": 1,
+      "sr_percent": 100.0,
+      "action_steps": 160.0,
+      "inference_seconds": 0.6685162535868585,
+      "metrics": "/root/robosyn_clean_eval_20261010/RoboSynChallenge/eval_result/table_rearrangement/ten_task_best/random/None/ten_task_best_clean_smoke_table_rearrangement/2026-10-11_03-20-54/evaluation_metrics.json"
+    },
+    {
+      "task": "click_bell",
+      "status": "completed",
+      "exit_code": 0,
+      "successes": 0,
+      "episodes": 1,
+      "sr_percent": 0.0,
+      "action_steps": 361.0,
+      "inference_seconds": 0.6431226911577018,
+      "metrics": "/root/robosyn_clean_eval_20261010/RoboSynChallenge/eval_result/click_bell/ten_task_best/random/None/ten_task_best_clean_smoke_click_bell/2026-10-11_03-22-33/evaluation_metrics.json"
+    },
+    {
+      "task": "water_pouring",
+      "status": "completed",
+      "exit_code": 0,
+      "successes": 1,
+      "episodes": 1,
+      "sr_percent": 100.0,
+      "action_steps": 190.0,
+      "inference_seconds": 0.599856335473688,
+      "metrics": "/root/robosyn_clean_eval_20261010/RoboSynChallenge/eval_result/water_pouring/ten_task_best/random/None/ten_task_best_clean_smoke_water_pouring/2026-10-11_03-24-21/evaluation_metrics.json"
+    },
+    {
+      "task": "handle_basket",
+      "status": "completed",
+      "exit_code": 0,
+      "successes": 1,
+      "episodes": 1,
+      "sr_percent": 100.0,
+      "action_steps": 350.0,
+      "inference_seconds": 0.6844810200589043,
+      "metrics": "/root/robosyn_clean_eval_20261010/RoboSynChallenge/eval_result/handle_basket/ten_task_best/random/None/ten_task_best_clean_smoke_handle_basket/2026-10-11_03-26-11/evaluation_metrics.json"
+    },
+    {
+      "task": "items_handover",
+      "status": "completed",
+      "exit_code": 0,
+      "successes": 0,
+      "episodes": 1,
+      "sr_percent": 0.0,
+      "action_steps": 350.0,
+      "inference_seconds": 0.5260683797299862,
+      "metrics": "/root/robosyn_clean_eval_20261010/RoboSynChallenge/eval_result/items_handover/ten_task_best/random/None/ten_task_best_clean_smoke_items_handover/2026-10-11_03-27-59/evaluation_metrics.json"
+    },
+    {
+      "task": "drawer_open_place",
+      "status": "completed",
+      "exit_code": 0,
+      "successes": 1,
+      "episodes": 1,
+      "sr_percent": 100.0,
+      "action_steps": 390.0,
+      "inference_seconds": 0.5757337897442855,
+      "metrics": "/root/robosyn_clean_eval_20261010/RoboSynChallenge/eval_result/drawer_open_place/ten_task_best/random/None/ten_task_best_clean_smoke_drawer_open_place/2026-10-11_03-29-43/evaluation_metrics.json"
+    },
+    {
+      "task": "mixer_operating",
+      "status": "completed",
+      "exit_code": 0,
+      "successes": 1,
+      "episodes": 1,
+      "sr_percent": 100.0,
+      "action_steps": 250.0,
+      "inference_seconds": 0.6278200882673264,
+      "metrics": "/root/robosyn_clean_eval_20261010/RoboSynChallenge/eval_result/mixer_operating/ten_task_best/random/None/ten_task_best_clean_smoke_mixer_operating/2026-10-11_03-31-34/evaluation_metrics.json"
+    },
+    {
+      "task": "item_assembly",
+      "status": "completed",
+      "exit_code": 0,
+      "successes": 1,
+      "episodes": 1,
+      "sr_percent": 100.0,
+      "action_steps": 263.0,
+      "inference_seconds": 0.26858083469172317,
+      "metrics": "/root/robosyn_clean_eval_20261010/RoboSynChallenge/eval_result/item_assembly/ten_task_best/random/None/ten_task_best_clean_smoke_item_assembly/2026-10-11_03-33-09/evaluation_metrics.json"
+    },
+    {
+      "task": "manipulate_pipette",
+      "status": "completed",
+      "exit_code": 0,
+      "successes": 1,
+      "episodes": 1,
+      "sr_percent": 100.0,
+      "action_steps": 232.0,
+      "inference_seconds": 0.2228240303695202,
+      "metrics": "/root/robosyn_clean_eval_20261010/RoboSynChallenge/eval_result/manipulate_pipette/ten_task_best/random/None/ten_task_best_clean_smoke_manipulate_pipette/2026-10-11_03-35-08/evaluation_metrics.json"
+    },
+    {
+      "task": "sample_loading",
+      "status": "completed",
+      "exit_code": 0,
+      "successes": 0,
+      "episodes": 1,
+      "sr_percent": 0.0,
+      "action_steps": 500.0,
+      "inference_seconds": 0.7794664754718542,
+      "metrics": "/root/robosyn_clean_eval_20261010/RoboSynChallenge/eval_result/sample_loading/ten_task_best/random/None/ten_task_best_clean_smoke_sample_loading/2026-10-11_03-36-45/evaluation_metrics.json"
+    }
+  ]
+}

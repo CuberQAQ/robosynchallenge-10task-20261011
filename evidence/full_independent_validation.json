@@ -1,0 +1,82 @@
+{
+  "checked_hkt": "2026-10-11 12:30",
+  "completed_tasks": [
+    {
+      "task": "table_rearrangement",
+      "successes": 98,
+      "episodes": 100,
+      "sr_percent": 98.0,
+      "action_steps": 160.92,
+      "inference_seconds": 0.6141004662736465,
+      "candidate_count": 113,
+      "skipped": 13,
+      "raw_count_success_action_mean_filter_exit_source_sha_pass": true
+    },
+    {
+      "task": "click_bell",
+      "successes": 66,
+      "episodes": 100,
+      "sr_percent": 66.0,
+      "action_steps": 157.44,
+      "inference_seconds": 0.5898244199955204,
+      "candidate_count": 159,
+      "skipped": 59,
+      "raw_count_success_action_mean_filter_exit_source_sha_pass": true
+    },
+    {
+      "task": "water_pouring",
+      "successes": 93,
+      "episodes": 100,
+      "sr_percent": 93.0,
+      "action_steps": 211.6,
+      "inference_seconds": 0.6128946383904476,
+      "candidate_count": 221,
+      "skipped": 121,
+      "raw_count_success_action_mean_filter_exit_source_sha_pass": true
+    },
+    {
+      "task": "handle_basket",
+      "successes": 43,
+      "episodes": 100,
+      "sr_percent": 43.0,
+      "action_steps": 435.7,
+      "inference_seconds": 0.6972516077902576,
+      "candidate_count": 119,
+      "skipped": 19,
+      "raw_count_success_action_mean_filter_exit_source_sha_pass": true
+    },
+    {
+      "task": "items_handover",
+      "successes": 38,
+      "episodes": 100,
+      "sr_percent": 38.0,
+      "action_steps": 334.6,
+      "inference_seconds": 0.5877855104053014,
+      "candidate_count": 149,
+      "skipped": 49,
+      "raw_count_success_action_mean_filter_exit_source_sha_pass": true
+    },
+    {
+      "task": "drawer_open_place",
+      "successes": 72,
+      "episodes": 100,
+      "sr_percent": 72.0,
+      "action_steps": 523.0,
+      "inference_seconds": 0.5899597535846509,
+      "candidate_count": 120,
+      "skipped": 20,
+      "raw_count_success_action_mean_filter_exit_source_sha_pass": true
+    },
+    {
+      "task": "mixer_operating",
+      "successes": 83,
+      "episodes": 100,
+      "sr_percent": 83.0,
+      "action_steps": 298.7,
+      "inference_seconds": 0.6234774032715554,
+      "candidate_count": 108,
+      "skipped": 8,
+      "raw_count_success_action_mean_filter_exit_source_sha_pass": true
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "created_at_hkt": "2026-10-10",
+  "scope": "RoboSynChallenge simulation/random, ten task checkpoint router",
+  "selection_rule": "Use our model only where available evidence supports a better result than the strongest published official baseline; otherwise use that official baseline. Results from different scene cohorts are explicitly marked non-comparable.",
+  "official_source": "https://github.com/EDEM-AI/RoboSynChallenge/blob/main/evaluation_results/released_checkpoint_results.json",
+  "official_protocol_revision": "c97d440e339cd270b096e27e281daa29f8712b36",
+  "selected": [
+    {"task":"table_rearrangement","origin":"ours","architecture":"SmolVLA","checkpoint_step":25000,"our_observed_sr_percent":97.0,"our_cohort":"485/500 expert-feasible; checkpoint lineage inferred from step and training directory","official_published_best_sr_percent":82.0,"official_best_architecture":"SmolVLA","source":"RoboSynChallenge_local_main/outputs/train/smolvla_table_rearrangement_run3/checkpoints/025000/pretrained_model"},
+    {"task":"click_bell","origin":"ours","architecture":"SmolVLA","checkpoint_step":56000,"our_observed_sr_percent":66.0,"our_cohort":"66/100 expert-feasible","official_published_best_sr_percent":51.0,"official_best_architecture":"DP","source":"cb_redo_ckpts/056000/pretrained_model"},
+    {"task":"water_pouring","origin":"ours","architecture":"SmolVLA","checkpoint_step":45290,"our_observed_sr_percent":96.8,"our_cohort":"484/500 expert-feasible; eval log confirms checkpoint path","official_published_best_sr_percent":72.0,"official_best_architecture":"ACT","source":"RoboSynChallenge/outputs/train/cobotmagic_smolvla_water_pouring_official1000_bs64_e15_20260920_231555/checkpoints/045290/pretrained_model"},
+    {"task":"handle_basket","origin":"official","architecture":"SmolVLA","checkpoint_step":40000,"our_observed_sr_percent":28.6,"our_cohort":"20/70 on later common nominal-seed diagnostic; official 24/70; 10-scene candidate 2/10 vs official 7/10","official_published_best_sr_percent":40.0,"official_best_architecture":"SmolVLA","repo_id":"RoboSynChallenge/SmolVLA_sim_handle_basket","revision":"0de9a93f124bd4ebe2fbd0d572ce3133806b82a9"},
+    {"task":"items_handover","origin":"ours","architecture":"SmolVLA","checkpoint_step":50000,"our_observed_sr_percent":37.4,"our_cohort":"187/500 expert-feasible; separate summary 39/100","official_published_best_sr_percent":30.0,"official_best_architecture":"SmolVLA","source":"RoboSynChallenge/outputs/train/cobotmagic_smolvla_items_handover_synthetic_b64_nw8/checkpoints/050000/pretrained_model"},
+    {"task":"drawer_open_place","origin":"ours","architecture":"SmolVLA","checkpoint_step":35000,"our_observed_sr_percent":73.8,"our_cohort":"369/500 expert-feasible; checkpoint lineage inferred from step and training directory","official_published_best_sr_percent":62.0,"official_best_architecture":"SmolVLA","source":"RoboSynChallenge_local_main/outputs/train/smolvla_drawer_open_place_run2_50k/checkpoints/035000/pretrained_model"},
+    {"task":"mixer_operating","origin":"ours","architecture":"SmolVLA","checkpoint_step":25000,"our_observed_sr_percent":85.0,"our_cohort":"85/100 common nominal-seed diagnostic; official SmolVLA 64/100","official_published_best_sr_percent":78.0,"official_best_architecture":"DP 5-step","source":"synth_train_prep/5k_eval/clean1k25k/pretrained_model"},
+    {"task":"item_assembly","origin":"official","architecture":"ACT","checkpoint_step":null,"our_observed_sr_percent":35.0,"our_cohort":"best clean 1k synth 28/80; official SmolVLA 38/80 on same nominal labels","official_published_best_sr_percent":64.0,"official_best_architecture":"ACT","repo_id":"RoboSynChallenge/ACT_sim_item_assembly","revision":"58955958519157176712a1eff319018d78177ddb"},
+    {"task":"manipulate_pipette","origin":"official","architecture":"ACT","checkpoint_step":null,"our_observed_sr_percent":51.9,"our_cohort":"83/160 expert-feasible; beat official SmolVLA 63/160 but not the published official ACT 61%","official_published_best_sr_percent":61.0,"official_best_architecture":"ACT","repo_id":"RoboSynChallenge/ACT_sim_manipulate_pipette","revision":"ca013b2e202d594bf347530c61c3ba28c06d1bc2"},
+    {"task":"sample_loading","origin":"official","architecture":"SmolVLA","checkpoint_step":50000,"our_observed_sr_percent":10.5,"our_cohort":"best self-trained 2/19; official SmolVLA 4/19 on reused common nominal labels; published official cohort 6%","official_published_best_sr_percent":6.0,"official_best_architecture":"SmolVLA","repo_id":"RoboSynChallenge/SmolVLA_sim_sample_loading","revision":"2a4f41ab3be8e5f544c890d6054bc8de3be5c53b"}
+  ],
+  "limitations": [
+    "Expert-feasible historical evaluations and official released random 100-episode evaluations are not the same cohort. These percentages do not establish a leaderboard improvement.",
+    "Same nominal scene seed does not guarantee an identical simulator initial state; common-seed results estimate marginal success only.",
+    "Historical table and drawer evaluation JSON records omit checkpoint_path; directory attribution requires further reproduction.",
+    "Source QA provenance for the older items_handover synthetic-only model is not in the current independent QA ledger; inspect before external submission.",
+    "The package selects model files. Real-world evaluation and external submission have not been run."
+  ]
+}

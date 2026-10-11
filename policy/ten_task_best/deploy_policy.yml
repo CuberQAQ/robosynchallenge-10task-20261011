@@ -1,0 +1,23 @@
+policy_name: ten_task_best
+task_name: table_rearrangement
+setting: random
+model_name: ten_task_best
+seed: 0
+max_episodes: 100
+max_steps: 1000
+headless: true
+pytorch_device: cuda
+device: cpu
+renderer: auto
+gpu_id: 0
+num_envs: 1
+filter_dataset_saving: true
+eval_video_log: false
+eval_video_obs_key: cam_high
+eval_expert_check: true
+checkpoint_root: ""
+smolvla_steps: 10
+smolvla_rescale_gripper: auto
+smolvla_gripper_indices: [6, 13]
+smolvla_gripper_source_range: [0.0, 1.0]
+act_step: 10
