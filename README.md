@@ -39,14 +39,14 @@ RoboSynChallenge checkout. Its official `policy/act` and `policy/smolvla`
 adapters must be present. Install the pinned worker LeRobot source in the
 separate Python 3.12 environment.
 
-Use the private HF repository at this full immutable checkpoint commit (an authorized read token is required):
+Use the public HF repository at this full immutable checkpoint commit (no authentication or access request is required):
 
 ```bash
 python download_checkpoints.py --repo-id CuberQAQ/robosynchallenge-10task-checkpoints-20261011 --revision 3eca6481c2fd642b17a2165ad52ec7aa232a0166 \
   --policy-dir /path/to/RoboSynChallenge/policy/ten_task_best
 ```
 
-The checkpoint commit is fixed; authenticate using an authorized Hugging Face read token before downloading. Do not place a token in code or run notes. The downloader
+The checkpoint commit is fixed. Do not place a token in code or run notes. The downloader
 checks every checkpoint file's SHA-256 and all ten required model routes.
 
 ## Official evaluation entry point
@@ -92,7 +92,7 @@ Ten routes completed one-episode deployment tests with normal exits in the
 fresh environment before the timing-only correction. Eight episodes succeeded;
 assembly and sample failed. All ten timing-corrected one-episode tests completed with normal exits by
 Oct11 03:41:45HKT: seven successes; bell, handover and sample failed.
-The full100/task validation started03:42:01HKT. As of Oct11 12:15HKT, seven tasks completed with normal exits and independently verified raw records: table98%, bell66%, water93%, basket43%, handover38%, drawer72%, mixer83%. Assembly, pipette and sample are not yet complete. The evidence directory records this snapshot. Neither smoke results nor historical offline results
+The full100/task validation started03:42:01HKT. As of Oct11 21:26HKT, nine tasks completed with normal exits and independently verified raw records: table98%, bell66%, water93%, basket43%, handover38%, drawer72%, mixer83%, assembly55%, pipette56%. Sample is not yet complete. The evidence directory records this snapshot. Neither smoke results nor historical offline results
 are official held-out competition scores. Report full-test completion separately.
 Local timing was on A6000; official efficiency scoring uses RTX 5090.
 
@@ -108,4 +108,4 @@ Official requirements:
 - https://robosyn-bench.net/#/evaluation
 - https://edem-ai.github.io/RoboSynChallenge/html/tutorials/policy/your_own_policy.html
 
-This private code release pairs with https://huggingface.co/CuberQAQ/robosynchallenge-10task-checkpoints-20261011. No official evaluation request has been submitted.
+This private code release (official account robosynchallenge has access) pairs with https://huggingface.co/CuberQAQ/robosynchallenge-10task-checkpoints-20261011. No official evaluation request has been submitted.

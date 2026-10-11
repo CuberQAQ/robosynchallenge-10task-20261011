@@ -1,5 +1,5 @@
 {
-  "checked_hkt": "2026-10-11 12:30",
+  "checked_hkt": "2026-10-11 21:26",
   "completed_tasks": [
     {
       "task": "table_rearrangement",
@@ -76,6 +76,28 @@
       "inference_seconds": 0.6234774032715554,
       "candidate_count": 108,
       "skipped": 8,
+      "raw_count_success_action_mean_filter_exit_source_sha_pass": true
+    },
+    {
+      "task": "item_assembly",
+      "successes": 55,
+      "episodes": 100,
+      "sr_percent": 55.0,
+      "action_steps": 370.2,
+      "inference_seconds": 0.18565217171532986,
+      "candidate_count": 132,
+      "skipped": 32,
+      "raw_count_success_action_mean_filter_exit_source_sha_pass": true
+    },
+    {
+      "task": "manipulate_pipette",
+      "successes": 56,
+      "episodes": 100,
+      "sr_percent": 56.0,
+      "action_steps": 576.77,
+      "inference_seconds": 0.2012148914665571,
+      "candidate_count": 111,
+      "skipped": 11,
       "raw_count_success_action_mean_filter_exit_source_sha_pass": true
     }
   ]
