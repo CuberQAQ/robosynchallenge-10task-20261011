@@ -50,7 +50,7 @@ nvidia-nvshmem-cu13==3.4.5
 nvidia-nvtx==13.0.85
 opencv-python-headless==4.13.0.92
 packaging==25.0
-pillow==12.3.0
+pillow==13.0.0
 psutil==7.2.2
 Pygments==2.21.0
 PyYAML==6.0.3

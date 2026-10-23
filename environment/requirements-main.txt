@@ -169,7 +169,7 @@ parso==0.8.7
 pathspec==1.1.1
 pexpect==4.9.0
 pfzy==0.3.4
-pillow==12.3.0
+pillow==13.0.0
 pin==4.1.0
 pin-pink==4.4.0
 platformdirs==4.12.4
