@@ -54,7 +54,7 @@ evdev==2.0.0
 executing==2.2.1
 Farama-Notifications==0.0.6
 fastjsonschema==2.22.2
-filelock==4.1.0
+filelock==4.2.1
 Flask==3.1.3
 fonttools==4.66.1
 frozenlist==1.8.0
