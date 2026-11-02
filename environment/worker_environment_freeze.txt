@@ -64,7 +64,7 @@ sympy==1.14.0
 termcolor==3.3.0
 tokenizers==0.22.2
 toml==0.10.2
-torch==2.11.0
+torch==2.13.0
 torchvision==0.26.0
 tqdm==4.70.1
 transformers==5.5.4
